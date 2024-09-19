@@ -1,0 +1,31 @@
+.main {
+    background-color: aliceblue;
+    min-height:500px;
+  }
+  .textAboutMe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+  .h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .span {
+    text-align: center;
+    color: rgb(39, 44, 42);
+  }
+  .introduction {
+    justify-content: space-around;
+    padding-top: 20px;
+    display: flex;
+    margin-bottom: 40px;
+    min-height: 300px;
+  }
+  .selfie {
+    padding: 1em;
+    width: 400px;
+    min-height: 100%;
+  }
