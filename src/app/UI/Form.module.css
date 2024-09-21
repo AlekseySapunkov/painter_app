@@ -1,0 +1,145 @@
+.form{
+    background-image: radial-gradient(circle at 30% 86%, rgba(255,255,255,0.03) 0%,
+     rgba(255,255,255,0.03) 8%,
+     transparent 8%, transparent 92%),
+     radial-gradient(circle at 55% 100%,
+      rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 8%,
+      transparent 8%, transparent 92%),
+      radial-gradient(circle at 40% 75%, rgba(255,255,255,0.03) 0%,
+       rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),
+       radial-gradient(circle at 7% 99%, rgba(255,255,255,0.03) 0%,
+        rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),
+        radial-gradient(circle at 69% 76%, rgba(255,255,255,0.03) 0%,
+         rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),
+         radial-gradient(circle at 2% 35%, rgba(255,255,255,0.03) 0%,
+          rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),
+          radial-gradient(circle at 14% 48%, rgba(255,255,255,0.03) 0%,
+           rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),
+           radial-gradient(circle at 28% 87%, rgba(255,255,255,0.04) 0%,
+            rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),
+            radial-gradient(circle at 65% 14%, rgba(255,255,255,0.04) 0%,
+             rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),
+             radial-gradient(circle at 51% 36%, rgba(255,255,255,0.04) 0%,
+              rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),
+              radial-gradient(circle at 6% 93%, rgba(255,255,255,0.04) 0%,
+               rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),
+               linear-gradient(135deg, rgb(23, 233, 173),rgb(29, 24, 208));
+               width: 100%;
+               max-width: 600px;
+               margin: auto;
+               border-radius: 3px;
+               position: fixed; top: 50%; left: 50%;
+               -webkit-transform: translate(-50%, -50%);
+               -ms-transform: translate(-50%, -50%);
+               transform: translate(-50%, -50%);
+               padding:15px;
+               height: 100%;
+              max-height: 620px;
+}
+.h2{
+    margin-top: 0px;
+    color:antiquewhite;
+    text-align:center;
+    font-weight:  500;
+}
+.formBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    background-color: rgba(88, 92, 92, 0.5);
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: 16px;
+    color: #1d1f22;
+    cursor: pointer;
+  }
+  .form-control {
+    background:rgba(255,255,255,0.9);
+    margin-bottom: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+  .input {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn{
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #070108;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color:#fff;
+        
+        &:hover, &:focus {
+          background: rgba(255,255,255,0.1);
+          box-shadow:none;
+        }
+}
+.formElement_wrapper{
+    margin-top: 1em;
+}
+.p{
+    color: antiquewhite;
+    margin-bottom: 5px;
+}
+.label{
+    font-size: 1em;
+}
+.legend{
+    margin-bottom: 10px;
+}
+.li{
+   vertical-align: middle;
+}
+.input[type="checkbox"]{
+    list-style: none;
+}
+.closeButton{
+    overflow: hidden;
+	position: relative;
+    left: 90%;
+	border: none;
+	padding: 0;
+	width: 3em; height: 3em;
+	border-radius: 50%;
+	background: transparent;
+	color: #eef1e453;
+	font: inherit;
+	text-indent: 100%;
+	cursor: pointer;
+	
+	&:focus {
+		outline: solid 0 transparent;
+		box-shadow: 0 0 0 3px #c2c8cc;
+	}
+	
+	&:hover {
+		background: rgba(29, 161, 142, .1)
+	}
+	
+	&:before, &:after {
+		position: absolute;
+		top: 15%; left: calc(50% - .0625em);
+		width: .125em; height: 70%;
+		border-radius: .125em;
+		transform: rotate(45deg);
+		background: currentcolor;
+		content: ''
+	}
+	
+	&:after { transform: rotate(-45deg); }
+}

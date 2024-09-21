@@ -1,7 +1,12 @@
+"use client"
 import styles from "./home.module.css"
 import Image from "next/image";
+import { useState } from "react";
+import Form from "@/app/UI/Form";
 const Home = () => {
+  const[isFormVisible, setFormVisible] = useState(false)  
 return (
+<>    {isFormVisible && <Form></Form>}
     <main className={styles.main}>
       <h1 className={styles.h1}>Коротко обо мне</h1>
       <div className={styles.introduction}>
@@ -15,9 +20,9 @@ return (
             <br /> Пою, танцую, играю, рисую.
           </span>
         </div>
-        <Image src='./src/app/assets/selfie.jpg'className={styles.selfie} alt="" width={400} height={300} />
+        <Image src='/selfie.jpg'className={styles.selfie} alt="" width={400} height={300} />
       </div>
-    </main>
+    </main></>
   );
 }
 export default Home

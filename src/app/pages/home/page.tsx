@@ -1,6 +1,10 @@
 import Home from "@/app/pages/home/home"
 
 const Page = () =>{
-    return <Home />
+    return (
+    <Home />    
+    )
+    
+
 }
 export default Page;
